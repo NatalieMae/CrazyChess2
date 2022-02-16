@@ -13,24 +13,24 @@
     
     <title>Crazy Chess</title>
 </head>
-        <body> 
-            <h1>Crazy Chess</h1> 
+<body> 
+    <h1>Crazy Chess</h1> 
                 <br><br>
-            <h3>Chess Board</h3>
-                <form>
-                <div class="dropzone">
-                    <div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain')">
-                    </div>             
+    <h3>Chess Board</h3>
+        <div class="dropzone">
+            <div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain')">          
                 <div class="grid-container">
-                    <div class="a8">a8</div>
-                    <div class="grid-box">b8</div>
-                    <div class="grid-box">c8</div>
-                    <div class="grid-box">d8</div>
-                    <div class="grid-box">e8</div>
-                    <div class="grid-box">f8</div>
-                    <div class="grid-box">g8</div>
-                    <div class="grid-box">h8</div>
+                    <div class="grid-box">a8<img class="blkRook" src="./blkChessPieces/Rook.ViewBlackandWhite.JPG" alt="Black Rook" width="150"></div> 
+                    <div class="grid-box">b8<img class="blkKnight" src="./blkChessPieces/Knight.SideViewBlackandWhite.JPG" alt="Black Knight, horse" width="100"></div>
+                    <div class="grid-box">c8<img class="blkBishop" src="./blkChessPieces/Bishop.FrontViewBlackandWhite.JPG" alt="Black Bishop" width="100"></div>
+                    <div class="grid-box">d8<img class="blkKnight" src="./blkChessPieces/Queen.SideViewBlackandWhite.JPG" alt="Black Queen" width="100"></div>
+                    <div class="grid-box">e8<img class="blkKnight" src="./blkChessPieces/King.FrontViewBlackandWhite.JPG" alt="Black King" width="100"></div>
+                    <div class="grid-box">f8<img class="blkBishop" src="./blkChessPieces/Bishop.FrontViewBlackandWhite.JPG" alt="Black Bishop" width="100"></div>
+                    <div class="grid-box">g8<img class="blkKnight" src="./blkChessPieces/Knight.SideViewBlackandWhite.JPG" alt="Black Knight, horse" width="100"></div>
+                    <div class="grid-box">h8<img class="blkRook" src="./blkChessPieces/Rook.ViewBlackandWhite.JPG" alt="Black Rook" width="150"></div> 
                 </div>
+            </div>
+        </div>
                 <div class="grid-container">
                     <div class="grid-box">a7</div>
                     <div class="grid-box">b7</div>
@@ -101,8 +101,6 @@
                     <div class="grid-box">g1</div>
                     <div class="grid-box">h1</div>
                 </div>
-            </div>
-        </form>
             <h2>FINISH HIM!</h2>
                 <script src="./JS/main.js"></script>
                 <script src="./JS/newimage.js"></script>
