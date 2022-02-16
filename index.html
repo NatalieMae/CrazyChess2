@@ -17,9 +17,12 @@
             <h1>Crazy Chess</h1> 
                 <br><br>
             <h3>Chess Board</h3>
+                <form>
                 <div class="dropzone">
-                    <div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', null)"></div>"                <div class="grid-container">
-                    <div class="grid-box">a8</div>
+                    <div id="draggable" draggable="true" ondragstart="event.dataTransfer.setData('text/plain')">
+                    </div>             
+                <div class="grid-container">
+                    <div class="a8">a8</div>
                     <div class="grid-box">b8</div>
                     <div class="grid-box">c8</div>
                     <div class="grid-box">d8</div>
@@ -99,6 +102,7 @@
                     <div class="grid-box">h1</div>
                 </div>
             </div>
+        </form>
             <h2>FINISH HIM!</h2>
                 <script src="./JS/main.js"></script>
                 <script src="./JS/newimage.js"></script>

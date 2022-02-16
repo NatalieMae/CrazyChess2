@@ -21,7 +21,8 @@
 //             let pawn = document.querySelector(".whPawn");
 //     }
 
-var dragged;
+var dragged; //(this information is from developer.mozilla.org I believe it
+              //should work if I add the correct parameters etc. Work in progress fingers crossed!)
 
 /* events fired on the draggable target */
 document.addEventListener("drag", function(event) {
