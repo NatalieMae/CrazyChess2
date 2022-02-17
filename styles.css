@@ -3,20 +3,35 @@ body {
 }
 
 .grid-container {
+    width: 1000px;
+    height: 200px;
+    margin: 20px;
+    display: grid;
+    grid: 8fr / auto auto auto auto auto auto auto auto;
+    padding: 3px;
+    border: 25px solid #333;
+    background-color: aqua;
+
+}
+
+/* .grid-container * {
+    grid: auto / 
+} */
+/* .grid-container > div * {
     display: grid;
     grid: auto / auto auto auto auto auto auto auto auto;
-    padding: 3px;
-    border: 3px solid;
-}
+} */
+
+/* .grid-container > div {
+    background-color: black;
+} */
 
 .grid-box {
     text-align: left;
     padding: 3px; 
-    border: 3px solid burlywood;
-    border-spacing: 0;
+    border: 3px solid black;
     font-size: 30px;
 }
-
 
 #draggable {
     width: auto;
@@ -34,13 +49,15 @@ body {
 }
 
 #draggable.grid-container.grid-box.blkRook {
-
+        max-width: max-content;
+        max-height: max-content;
+        color: blue;
 }
 
 .blkRook {
         background: aquamarine;
-
-    }
+        b
+} 
 
 
 
